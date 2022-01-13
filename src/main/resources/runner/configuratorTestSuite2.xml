@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="configuratorTestSuite2">
+
+  <parameter name="pathChromePdf" value="\\src\\main\\resources\\TestReporter\\ChromeTest.pdf" />
+  <parameter name="pathEdgePdf" value="\\src\\main\\resources\\TestReporter\\EdgeTest.pdf" />
+  <parameter name="pathOperaPdf" value="\\src\\main\\resources\\TestReporter\\OperaTest.pdf" />
+  <test name="ChromeTest">
+    <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="configuratorTestSuite2.TestBase" />
+    </classes>
+  </test>
+  <test name="EdgeTest">
+    <parameter name="browser" value="Edge" />
+    <classes>
+      <class name="configuratorTestSuite2.TestBase" />
+    </classes>
+  </test>
+  <test name="OperaTest">
+    <parameter name="browser" value="opera" />
+    <classes>
+      <class name="configuratorTestSuite2.TestBase" />
+    </classes>
+  </test>
+</suite>
+
+
+

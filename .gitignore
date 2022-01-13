@@ -1,0 +1,14 @@
+**/bin
+**/tmp
+**/target/
+**/TestReporter/
+**/test-output/
+.settings
+.metadata
+.classpath
+.project
+*.tmp
+*.bak
+*.swp
+*.pdf
+*.nib

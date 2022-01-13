@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="configuratorTestSuite1">
+  <test thread-count="5" name="Configurator">
+    <classes>
+      <class name="configuratorTestSuite1.Inizializ" />
+      <class name="configuratorTestSuite1.TestBase" />
+    </classes>
+  </test> <!-- Configurator -->
+</suite> <!-- configuratorTestSuite1 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
